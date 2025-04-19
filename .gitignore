@@ -1,0 +1,86 @@
+# Arquivos de ambiente e configuração
+.env
+.env.local
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Arquivos de banco de dados local
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Arquivos temporários Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Diretórios específicos da aplicação
+instance/
+uploads/
+temp/
+logs/
+temp_vigiapp/
+static/uploads/
+
+# Arquivos de mídia e conteúdo gerado
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.zip
+*.tar.gz
+
+# Exceções específicas (importante manter imagens do sistema)
+!static/img/*.png
+!static/img/*.jpg
+!static/img/*.jpeg
+!static/img/*.gif
+!static/img/logo.png
+!static/img/background.jpg
+!vigiapp.JPG
+!generated-icon.png
+
+# Arquivos de configuração do IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Arquivos de log
+*.log
